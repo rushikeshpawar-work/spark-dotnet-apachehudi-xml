@@ -1,0 +1,50 @@
+{
+  "partitionToWriteStats" : {
+    "" : [ {
+      "fileId" : "b278c357-4000-4bda-8ae6-e0ba64a5547f-0",
+      "path" : "b278c357-4000-4bda-8ae6-e0ba64a5547f-0_0-74-4091_20240705142617847.parquet",
+      "prevCommit" : "null",
+      "numWrites" : 20000,
+      "numDeletes" : 0,
+      "numUpdateWrites" : 0,
+      "numInserts" : 20000,
+      "totalWriteBytes" : 1633667,
+      "totalWriteErrors" : 0,
+      "tempPath" : null,
+      "partitionPath" : "",
+      "totalLogRecords" : 0,
+      "totalLogFilesCompacted" : 0,
+      "totalLogSizeCompacted" : 0,
+      "totalUpdatedRecordsCompacted" : 0,
+      "totalLogBlocks" : 0,
+      "totalCorruptLogBlock" : 0,
+      "totalRollbackBlocks" : 0,
+      "fileSizeInBytes" : 1633667,
+      "minEventTime" : null,
+      "maxEventTime" : null
+    } ]
+  },
+  "compacted" : false,
+  "extraMetadata" : {
+    "schema" : "{\"type\":\"record\",\"name\":\"dim_customer_record\",\"namespace\":\"hoodie.dim_customer\",\"fields\":[{\"name\":\"CustomerId\",\"type\":[\"null\",\"long\"],\"default\":null},{\"name\":\"CustomerName\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"Phone\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"Address\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"City\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"Region\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"PostalCode\",\"type\":[\"null\",\"long\"],\"default\":null},{\"name\":\"Country\",\"type\":[\"null\",\"string\"],\"default\":null}]}"
+  },
+  "operationType" : "UPSERT",
+  "writePartitionPaths" : [ "" ],
+  "minAndMaxEventTime" : {
+    "Optional.empty" : {
+      "val" : null,
+      "present" : false
+    }
+  },
+  "totalLogFilesSize" : 0,
+  "fileIdAndRelativePaths" : {
+    "b278c357-4000-4bda-8ae6-e0ba64a5547f-0" : "b278c357-4000-4bda-8ae6-e0ba64a5547f-0_0-74-4091_20240705142617847.parquet"
+  },
+  "totalLogRecordsCompacted" : 0,
+  "totalRecordsDeleted" : 0,
+  "totalLogFilesCompacted" : 0,
+  "totalCompactedRecordsUpdated" : 0,
+  "totalScanTime" : 0,
+  "totalCreateTime" : 1103,
+  "totalUpsertTime" : 0
+}
